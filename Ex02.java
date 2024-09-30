@@ -11,7 +11,7 @@ public class Ex02 {
 
         System.out.println("Os números na ordem inversa são:");
         for (int i = 9; i >= 0; i--) {
-            System.out.printf("%.2f "+ numeros[i]);
+            System.out.printf(numeros[i]+" | ");
         }
 
         read.close();
