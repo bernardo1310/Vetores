@@ -6,13 +6,13 @@ public class Ex01 {
         int[] numeros = new int[5];
 
         for (int i = 0; i < 5; i++) {
-            System.out.printf("Digite o número: %d - ", (i + 1));
+            System.out.print("Digite o número: "+ (i + 1));
             numeros[i] = read.nextInt();
         }
 
         System.out.println("Os números digitados foram:");
         for (int i = 0; i < 5; i++) {
-            System.out.printf("%d ", numeros[i]);
+            System.out.print(numeros[i]+" | ");
         }
 
         read.close();
